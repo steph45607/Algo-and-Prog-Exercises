@@ -1,2 +1,3 @@
-#input = float
-#result = (y2-y1)/(x2-x1)
+import random
+randomint = random.randint(1,100)
+print(randomint)
