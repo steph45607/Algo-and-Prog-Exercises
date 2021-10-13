@@ -1,0 +1,16 @@
+Help kids learn:
+types of fractions
+reducing or symplifying fractions
+
+fraction can't bre reduce if gcd == 1
+if not 1 -> use gcd to reduce the fraction
+    divide both numerator and denominator by gcd
+
+proper fraction
+    numer < denom
+
+improper fraction
+    numer >= denom
+
+mixed fraction
+    whole number and fraction
