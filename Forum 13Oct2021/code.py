@@ -36,5 +36,3 @@ elif numer >= denom: #improper
     else:
         rednumer = rednumer - (reddenom*mixed) #calculate the remaining numerator in mixed fraction
         print(f"The mixed number is {mixed} and {rednumer}/{reddenom}")
-else:
-    print(f"{numer}/{denom} is equal to a whole number 1.")
