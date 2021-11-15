@@ -1,0 +1,16 @@
+1:I have a cat
+2:I dont have a cat
+3:I love dogs and cats
+4:
+5:13
+6:
+7:51523
+8:
+9:Binus International University
+10:Computer Science
+11:
+12:
+13:I don't know
+14:
+15:meep
+16:meep
