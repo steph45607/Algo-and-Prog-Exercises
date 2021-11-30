@@ -14,4 +14,3 @@ def splitter(text,writeText):  # function, ask for the text you want to read and
     file2.close() # close write text
 
 splitter("miyagi.txt","new.txt")
-
