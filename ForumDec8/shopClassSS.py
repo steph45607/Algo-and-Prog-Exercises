@@ -22,7 +22,6 @@ class ItemSS:
         price to the right name
         """
 
-    
     def __PriceListSS(self):
         # Will match the input name with the price
         if self.__foodName == "Dry Cured Iberian Ham":
@@ -48,7 +47,7 @@ class ItemSS:
         
     def calcCostSS(self):
         # To calculate the price for an amount of item bought
-        cost = self.__itemPrice * self.__amount
+        self.__calcPrice = self.__itemPrice * self.__amount
         # Item price times amount bought
-        return cost
+        return self.__calcPrice
         # Return to access it later
