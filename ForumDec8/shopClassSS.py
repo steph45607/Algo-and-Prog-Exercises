@@ -2,7 +2,7 @@ class ItemSS:
     def __init__(self, foodName, amount):
         self.__foodName = foodName
         self.__amount = amount
-        self.__itemPrice = self.__PriceListSS()
+        self.__itemPrice = self.getItemPriceSS()
         self.__calcPrice = self.calcCostSS()
 
     def getNameSS(self): 
@@ -15,11 +15,9 @@ class ItemSS:
     
     def getItemPriceSS(self):
         # To return single item's price, since it's private
-        return self.__PriceListSS()
+        self.__PriceListSS()
+        return self.__itemPrice
         """
-        Use PriceListSS method,
-        so it will return the right
-        price to the right name
         """
 
     def __PriceListSS(self):
@@ -42,8 +40,6 @@ class ItemSS:
             self.__itemPrice = 270.81
         else: # If the item doesn't exist
             self.__itemPrice = 0
-        return self.__itemPrice
-        # Return the price according to the name
         
     def calcCostSS(self):
         # To calculate the price for an amount of item bought

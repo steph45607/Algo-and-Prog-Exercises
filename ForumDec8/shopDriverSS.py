@@ -34,13 +34,13 @@ def totalCostSS(theList): # Method for calculating total purchased items
     total = 0 # Initial value
     for item in range(len(theList)): # Looping the calculated price for each items
         total += theList[item].calcCostSS() # Add each items total price to the total purchased
-    print("Total cost: ${:.2f}".format(total))
+    return total
 
 
 def main(): # Method to call out all 3 functions
     x = itemListSS()
     # Assign the list method to x, so can be re-used
     displaySS(x)
-    totalCostSS(x)
+    print("Total cost: ${:.2f}".format(totalCostSS(x)))
     
 main() # Call the function
