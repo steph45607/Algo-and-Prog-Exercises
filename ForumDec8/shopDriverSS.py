@@ -3,12 +3,12 @@ from shopClassSS import ItemSS  # Import the class and the methods inside it
 def itemListSS():
     # Method for mostly input user, things purchased
     items = [] # The list to store the objects created
-    num = int(input("How many items will you order today?"))
+    num = int(input("How many items will you order today? "))
     while num < 1:  # Looping to check the num value, exit loop when num is 1 or greater
         print("Number of items must be at least 1.")
-        num = int(input("How many items will you order today?"))
+        num = int(input("How many items will you order today? "))
     for item in range(num): # Looping to ask the name and amount, as much as num
-        print(f"Item #{item+1}") # Starts with 1 instead of 0
+        print(f"Item #{item+1}-") # Starts with 1 instead of 0
         itemName = str(input("Enter food: "))
         itemAmount = float(input("Enter amount of pounds: "))
         while itemAmount <= 0:      # Looping to check the amount, exit when amount is greater than 0
