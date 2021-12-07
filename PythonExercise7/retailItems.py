@@ -36,3 +36,7 @@ def main():
     print("----------------------------------------")
     for i in range(num): # Iterate as much as the items bought
         print(items[i].__str__())
+    total_price = 0
+    for i in range(num):
+        total_price += items[i].getPrice() * items[i].getAmount()
+    print(f"Total price: .ljust(33) ${total_price}")
